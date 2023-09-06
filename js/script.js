@@ -4,3 +4,11 @@
 
 
 
+const name = prompt ('Qual è il tuo nome?');
+const surname = prompt ('Qual è il tuo cognome?');
+const color = prompt ('Qual è il tuo colore preferito?');
+
+const message = `ciao $(name), la tua nuova password è $(name)$(surname)$(color)23`
+
+console.log(message)
+
